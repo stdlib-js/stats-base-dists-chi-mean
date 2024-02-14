@@ -69,6 +69,11 @@ where `k` is the degrees of freedom.
 ## Usage
 
 ```javascript
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-chi-mean/tags). For example,
+
+```javascript
 import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@v0.2.0-esm/index.mjs';
 ```
 
@@ -119,7 +124,7 @@ var v = mean( -1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@v0.2.0-esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@esm/index.mjs';
 
 var k;
 var v;
