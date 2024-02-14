@@ -69,7 +69,7 @@ where `k` is the degrees of freedom.
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@v0.2.0-esm/index.mjs';
 ```
 
 #### mean( k )
@@ -119,7 +119,7 @@ var v = mean( -1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-mean@v0.2.0-esm/index.mjs';
 
 var k;
 var v;
