@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,15 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#ifndef STDLIB_STATS_BASE_DISTS_CHI_MEAN_H
+#define STDLIB_STATS_BASE_DISTS_CHI_MEAN_H
 
-var uniform = require( '@stdlib/random-array-uniform' );
-var logEachMap = require( '@stdlib/console-log-each-map' );
-var mean = require( './../lib' );
+/*
+* If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
+*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-var opts = {
-	'dtype': 'float64'
-};
-var k = uniform( 10, 0.0, 20.0, opts );
+/**
+* Returns the expected value of a chi distribution.
+*/
+double stdlib_base_dists_chi_mean( const double k );
 
-logEachMap( 'k: %0.4f, E(X;k): %0.4f', k, mean );
+#ifdef __cplusplus
+}
+#endif
+
+#endif // !STDLIB_STATS_BASE_DISTS_CHI_MEAN_H

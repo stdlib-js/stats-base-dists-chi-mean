@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,15 +16,23 @@
 * limitations under the License.
 */
 
-'use strict';
+#include "stdlib/stats/base/dists/chi/mean.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-var uniform = require( '@stdlib/random-array-uniform' );
-var logEachMap = require( '@stdlib/console-log-each-map' );
-var mean = require( './../lib' );
+static double random_uniform( const double min, const double max ) {
+	double v = (double)rand() / ( (double)RAND_MAX + 1.0 );
+	return min + ( v * ( max - min ) );
+}
 
-var opts = {
-	'dtype': 'float64'
-};
-var k = uniform( 10, 0.0, 20.0, opts );
+int main( void ) {
+	double k;
+	double y;
+	int i;
 
-logEachMap( 'k: %0.4f, E(X;k): %0.4f', k, mean );
+	for ( i = 0; i < 25; i++ ) {
+		k = random_uniform( 1.0, 10.0 );
+		y = stdlib_base_dists_chi_mean( k );
+		printf( "k: %lf, E(X,k): %lf\n", k, y );
+	}
+}
