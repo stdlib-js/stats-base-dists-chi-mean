@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-25)
+## Unreleased (2025-12-29)
 
 <section class="features">
 
@@ -36,8 +36,8 @@ This release closes the following issue:
 
 -   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`20dd4e8`](https://github.com/stdlib-js/stdlib/commit/20dd4e891d7fac27581eecb54240ae194d6076ab) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
--   [`876d319`](https://github.com/stdlib-js/stdlib/commit/876d319235fa6b11ff7df92a34f3ebba821d6630) - **bench:** update random value generation [(#7009)](https://github.com/stdlib-js/stdlib/pull/7009) _(by Harsh)_
--   [`7788818`](https://github.com/stdlib-js/stdlib/commit/77888181398b4aa628194b37b058e262c8bdb7fd) - **docs:** replace manual `for` loop in examples [(#6921)](https://github.com/stdlib-js/stdlib/pull/6921) _(by Harsh)_
+-   [`876d319`](https://github.com/stdlib-js/stdlib/commit/876d319235fa6b11ff7df92a34f3ebba821d6630) - **bench:** update random value generation [(#7009)](https://github.com/stdlib-js/stdlib/pull/7009) _(by Harsh Yadav)_
+-   [`7788818`](https://github.com/stdlib-js/stdlib/commit/77888181398b4aa628194b37b058e262c8bdb7fd) - **docs:** replace manual `for` loop in examples [(#6921)](https://github.com/stdlib-js/stdlib/pull/6921) _(by Harsh Yadav)_
 -   [`9e43626`](https://github.com/stdlib-js/stdlib/commit/9e436263a3b0cf8c54da48f9c73cc94826baa57e) - **feat:** add C implementation for `stats/base/dists/chi/mean` [(#4514)](https://github.com/stdlib-js/stdlib/pull/4514) _(by Aadish Jain, Philipp Burckhardt, stdlib-bot)_
 -   [`b3540a8`](https://github.com/stdlib-js/stdlib/commit/b3540a8ffa4c9cd3122e660a68dcbe286330b5e6) - **bench:** refactor random number generation in `stats/base/dists/chi` [(#4853)](https://github.com/stdlib-js/stdlib/pull/4853) _(by Karan Anand)_
 
@@ -54,7 +54,7 @@ This release closes the following issue:
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aadish Jain
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
